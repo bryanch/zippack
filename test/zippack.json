@@ -1,0 +1,4 @@
+{
+  "outputFile": "example.zip",
+  "include": ["example.txt", "folder1/**/*"]
+}

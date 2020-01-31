@@ -1,0 +1,30 @@
+{
+  "name": "zippack",
+  "version": "0.1.0",
+  "description": "A tool to zip folders and files according to config",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "cd test && node ../src/cli.js"
+  },
+  "bin": {
+    "lerna": "src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanch/zippack.git"
+  },
+  "keywords": [
+    "zip",
+    "pack",
+    "packaging"
+  ],
+  "author": "Bryan Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryanch/zippack/issues"
+  },
+  "homepage": "https://github.com/bryanch/zippack#readme",
+  "dependencies": {
+    "archiver": "^3.1.1"
+  }
+}
